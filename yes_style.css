@@ -10,6 +10,10 @@ body {
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        /* center items inside */
+    justify-content: center;
 }
 
 .header_text {
